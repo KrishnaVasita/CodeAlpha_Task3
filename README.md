@@ -18,5 +18,4 @@ It scans a target URL for common vulnerabilities, misconfigurations, and open po
 - Python 3.8+
 - Install dependencies from `requirements.txt`
 
-   git clone https://github.com/your-username/bugbounty-tool.git
-   cd bugbounty-tool
+
