@@ -1,0 +1,89 @@
+
+<html>
+<head>
+<meta charset="utf-8" />
+<title>BugBountyHelper Report - 127.0.0.1:8080</title>
+<style>
+body{font-family: Arial, Helvetica, sans-serif; margin:20px}
+.card{border:1px solid #ddd;padding:12px;margin-bottom:10px;border-radius:6px}
+.h{font-size:18px;font-weight:700}
+</style>
+</head>
+<body>
+<h1>BugBountyHelper Report — 127.0.0.1:8080</h1>
+<p>Generated at Thu Aug 14 19:43:46 2025</p>
+
+<div class="card">
+  <div class="h">target</div>
+  <pre>"http://127.0.0.1:8080"</pre>
+</div>
+
+<div class="card">
+  <div class="h">security_headers</div>
+  <pre>{
+  "error": "No response",
+  "found": {},
+  "missing": []
+}</pre>
+</div>
+
+<div class="card">
+  <div class="h">robots</div>
+  <pre>{
+  "content": null,
+  "exist": false
+}</pre>
+</div>
+
+<div class="card">
+  <div class="h">directories</div>
+  <pre>[]</pre>
+</div>
+
+<div class="card">
+  <div class="h">xss</div>
+  <pre>{
+  "error": "No response"
+}</pre>
+</div>
+
+<div class="card">
+  <div class="h">sqli</div>
+  <pre>{
+  "error": "No response"
+}</pre>
+</div>
+
+<div class="card">
+  <div class="h">nmap</div>
+  <pre>{
+  "scan": {
+    "nmap": {
+      "command_line": "/usr/lib/nmap/nmap --privileged -oX - -sV -T4 --top-ports 100 127.0.0.1:8080",
+      "scaninfo": {
+        "error": [
+          "Failed to resolve \"127.0.0.1:8080\".\nWARNING: No targets were specified, so 0 hosts scanned.\n"
+        ],
+        "tcp": {
+          "method": "syn",
+          "services": "7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"
+        },
+        "warning": [
+          "WARNING: No targets were specified, so 0 hosts scanned.\n"
+        ]
+      },
+      "scanstats": {
+        "downhosts": "0",
+        "elapsed": "0.17",
+        "timestr": "Thu Aug 14 19:43:46 2025",
+        "totalhosts": "0",
+        "uphosts": "0"
+      }
+    },
+    "scan": {}
+  }
+}</pre>
+</div>
+
+</body>
+</html>
