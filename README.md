@@ -16,6 +16,14 @@ It scans a target URL for common vulnerabilities, misconfigurations, and open po
 
  📦 Requirements
 - Python 3.8+
-- Install dependencies from `requirements.txt`
+- Install dependencies from `requirements.txt` 
 
+
+🚀 Usage 
+Basic scan:python3 web_app_bugbounty_tool.py -u https://testphp.vulnweb.com
+Scan with Nmap integration: python3 web_app_bugbounty_tool.py -u https://testphp.vulnweb.com --nmap
+
+Reports 
+scan_report.json → JSON format output.
+scan_report.html → HTML format output for browser viewing.
 
